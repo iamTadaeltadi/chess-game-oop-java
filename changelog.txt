@@ -1,0 +1,6 @@
+King and Rook toString reflects the hasMoved flag.
+Getter and setter methods for hasMoved added to Rook and King.
+Chess.performMove() has been updated, resists moves that expose the king to threats.
+Added methods Chess.isKingUnderAttack() and Chess.getAllDestinationsByColor().
+Entering the command "resign" during the game, terminates the game.
+Issuing the command "debug" during the game, invokes a method that helps with debugging.
